@@ -1,0 +1,33 @@
+{
+  "name": "count-down-bnnr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "server": "node server.js",
+    "start": "node ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-js-minify": "0.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "jshint": "^2.9.5",
+    "sass": "^1.5.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  }
+}
